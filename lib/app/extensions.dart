@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 extension NonNullString on String? {
   String orEmpty(){
     if(this == null){
@@ -26,4 +28,10 @@ extension NonNullDouble on double?{
       return this!;
     }
   }
+}
+
+extension EmptyPaddingSizedBox on num{
+  SizedBox get ph => SizedBox(height: toDouble(),);
+
+  SizedBox get pw => SizedBox(width: toDouble(),);
 }

@@ -1,6 +1,6 @@
 
 class Constants{
-  static const String baseURL = "https://api.themoviedb.org/3";
+  static const String baseURL = "https://api.themoviedb.org/3/";
   static const String apiKey = "233a11f8ffac331bc01afc6c7cb0b88a";
   static const String token = "Send Token Here";
   static const int id = 0;
